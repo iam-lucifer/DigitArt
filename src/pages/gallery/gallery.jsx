@@ -47,7 +47,7 @@ function Gallery() {
               </div>
             </div>
             <h1>18$</h1>
-            <Link to="/">
+            <Link to="/" href="/">
               <div className="container-4">
                 <div className="btn btn-four">
                   <span>Buy Now</span>
