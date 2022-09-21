@@ -1,0 +1,324 @@
+.gallery-container {
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+  background-color: rgb(0, 0, 0);
+}
+
+#def{
+    height: 100vh !important;
+}
+
+gallery-container title {
+  width: fit-content;
+  height: 9000%;
+  display: flex;
+  flex-direction: row;
+  min-height: 500rem;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: "Righteous", serif;
+  font-size: 3em;
+  text-shadow: 0.03em 0.03em 0 hsla(230, 40%, 50%, 1);
+  margin-top: 0px;
+}
+
+.gcontainer {
+  display: flex;
+  align-content: center;
+  width: 100%;
+  height: 75%;
+}
+
+.info {
+  width: 40%;
+  height: 15rem;
+  padding: 5% 12% 12% 12%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: aliceblue;
+  text-align: left;
+}
+
+.info h1 {
+  font-size: 4rem;
+}
+
+.info span {
+  font-size: 1.6rem;
+}
+
+.desc {
+  margin-top: 25px;
+}
+
+.pag {
+  color: aliceblue;
+}
+
+.pag span{
+    background-color: rgb(146, 146, 146);
+    width: 45px;
+    height: 15px;
+    margin: 15px 8px 15px 8px;
+
+}
+.pag span::after:hover{
+background-color: aqua;
+}
+
+.pag span:hover{
+    background-color: #fff;
+    transition: all 0.6s;
+    transform: scale(1, 2);
+    border-radius: 30%;
+}
+
+.gallery-container h1 {
+  color: antiquewhite;
+}
+
+.righttab {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 5%;
+  padding-right: 0%;
+  margin-right: 0%;
+}
+
+.btn-six {
+  margin-bottom: 45%;
+}
+.btn-six span {
+  margin-left: 32%;
+}
+
+.btn-four {
+  margin-bottom: 25%;
+}
+.btn-four span {
+  margin-left: 38%;
+}
+
+
+.pag{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "Righteous", serif;
+    font-size: 3em;
+    text-shadow: 0.03em 0.03em 0 hsla(230, 40%, 50%, 1);
+}
+
+/* Button Start */
+
+.container-4 {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.btn {
+  position: relative;
+  color: white;
+  width: 256px;
+  height: 64px;
+  line-height: 64px;
+  transition: all 0.3s;
+}
+
+.btn::before,
+.btn::after {
+  content: "";
+  position: absolute;
+  transition: all 0.3s;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.btn-four:hover span {
+  transform: scale(1.2, 1.2);
+}
+
+.btn-four::before {
+  opacity: 0;
+  background: rgba(255, 255, 255, 0.1);
+  transform: scale(0.1, 0.1);
+}
+
+.btn-four:hover::before {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+.btn-four::after {
+  transition: all 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.btn-four:hover::after {
+  transform: scale(0, 0);
+  opacity: 0;
+}
+
+.btn-six::before {
+  opacity: 0;
+  background: rgba(255, 255, 255, 0.1);
+  transform: scale(1.3, 1.3);
+}
+
+.btn-six:hover::before {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+.btn-six::after {
+  transition: all 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.btn-six:hover::after {
+  transform: scale(0, 0);
+  opacity: 0;
+}
+
+
+
+
+
+
+
+
+.btn-95,
+.btn-95 *,
+.btn-95 :after,
+.btn-95 :before,
+.btn-95:after,
+.btn-95:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-95 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  text-transform: uppercase;
+}
+.btn-95:disabled {
+  cursor: default;
+}
+.btn-95:-moz-focusring {
+  outline: auto;
+}
+.btn-95 svg {
+  vertical-align: middle;
+}
+.btn-95 [hidden] {
+  display: none;
+}
+.btn-95 {
+  background: hsla(0, 0%, 100%, 0.2);
+  background-clip: content-box;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: block;
+  height: 100px;
+  -webkit-mask-image: none;
+  padding: 0;
+  position: relative;
+  transition: 0.2s;
+  width: 100px;
+}
+.btn-95:hover {
+  background: #fff;
+}
+.btn-95 svg {
+  --size: 70px;
+  fill: #fff;
+  display: block;
+  height: var(--size);
+  left: calc(50% - var(--size) / 2);
+  position: absolute;
+  top: calc(50% - var(--size) / 2);
+  width: var(--size);
+}
+.btn-95:hover svg {
+  fill: #000;
+}
+.btn-95:before {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  content: "";
+  inset: 1px;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  transform: scale(2);
+  transition: 0.2s;
+}
+.btn-95:hover:before {
+  opacity: 1;
+  transform: scale(1);
+}
+
+
+
+
+
+.button-74 {
+  background-color: #080807;
+  border: 2px solid #a29fc5;
+  border-radius: 30px;
+  box-shadow: #b9b7cf 4px 4px 0 0;
+  color: #bab5d3;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+.button-74:active {
+  box-shadow: #b2b2ca 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+/* Button End */
