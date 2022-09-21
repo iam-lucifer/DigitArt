@@ -11,7 +11,7 @@ function Index() {
           <ul>
             <li>
               <a className="atag">
-                <Link to="/about">About</Link>
+                <Link to="/about" href="/about">About</Link>
               </a>
             </li>
           </ul>
@@ -19,7 +19,7 @@ function Index() {
         <div className="qut"></div>
         <div className="main">
           <h1 data-shadow="dang!">The aim of art is to represent not the outward appearance of things, but their inward significance.</h1>
-          <Link to="/gallery">  
+          <Link to="/gallery" href="/gallery">  
           <button className="button-86 shopbtn" role="button" >
             Gallery
           </button>
