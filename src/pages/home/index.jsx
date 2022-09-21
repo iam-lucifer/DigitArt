@@ -19,7 +19,7 @@ function Index() {
         <div className="qut"></div>
         <div className="main">
           <h1 data-shadow="dang!">The aim of art is to represent not the outward appearance of things, but their inward significance.</h1>
-          <Link to="/gallery" href="/gallery">  
+          <Link to="/gallery" href="javascript:void(0);">  
           <button className="button-86 shopbtn" role="button" >
             Gallery
           </button>
